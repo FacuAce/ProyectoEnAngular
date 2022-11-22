@@ -1,4 +1,4 @@
-#Proyecto básico en Angular
+# Proyecto básico en Angular
 ## Introducción
 
 Proyecto de prueba para entender los conceptos básicos de Angular, y ponerlos a prueba en una pequeña aplicación FrontEnd que se conecte a un server json y que muestre productos, permite cargarlos en un carrito,  permita completar un formulario del carrito, y realizar la compra.
