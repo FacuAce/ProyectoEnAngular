@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ProductsService } from './services/products.service';
 import { tap } from 'rxjs/operators';
 import { Product } from './interfaces/product.interface';
+import { ShoppingCartService } from 'src/app/shared/services/shopping-cart.service';
 
 @Component({
   selector: 'app-products',
@@ -11,7 +12,10 @@ import { Product } from './interfaces/product.interface';
 export class ProductsComponent {
   products!: Product[];
 
-  constructor(private readonly productsService: ProductsService) {}
+  constructor(
+    private readonly productsService: ProductsService,
+    private readonly shoppingCartService: ShoppingCartService
+  ) {}
 
   ngOnInit(): void {
     this.productsService
@@ -20,5 +24,7 @@ export class ProductsComponent {
       .subscribe();
   }
 
-  addToCart(product: Product): void {}
+  addToCart(product: Product): void {
+    this.shoppingCartService.updateCart(product);
+  }
 }
