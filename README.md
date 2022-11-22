@@ -1,27 +1,15 @@
-# Store
+#Proyecto básico en Angular
+## Introducción
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+Proyecto de prueba para entender los conceptos básicos de Angular, y ponerlos a prueba en una pequeña aplicación FrontEnd que se conecte a un server json y que muestre productos, permite cargarlos en un carrito,  permita completar un formulario del carrito, y realizar la compra.
 
-## Development server
+## Objetivo del proyecto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+El objetivo principal es aprender los conceptos de angular como es iniciar un proyecto, crear módulos y componentes, entender cómo funcionan estos módulos y componentes, crear rutas, aprender cómo funciona el data binding ya sea en una dirección o ambas, aprender directivas comunes, utilizar angular material para maquetar la página creando un módulo dedicado a este, hacer peticiones al servidor json ya sea trayendo, agregando o modificando datos, aprender qué son los observables, subject y behavior subject, programación reactiva, entre muchos otros conceptos básicos para comprender el framework.
 
-## Code scaffolding
+## Como configurar este proyecto en local:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para que el proyecto funcione debe por supuesto ejecutar el comando  
+`npm install` para descargar todas las dependencias.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Debe iniciar el servidor json con el comando `npm run serverAPI`, y por último correr el proyecto con el comando `ng serve`.
