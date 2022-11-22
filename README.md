@@ -12,4 +12,5 @@ El objetivo principal es aprender los conceptos de angular como es iniciar un pr
 Para que el proyecto funcione debe por supuesto ejecutar el comando  
 `npm install` para descargar todas las dependencias.
 
-Debe iniciar el servidor json con el comando `npm run serverAPI`, y por último correr el proyecto con el comando `ng serve`.
+Debe iniciar el servidor json con el comando `npm run serverAPI`, y por último correr el proyecto con el comando 
+`ng serve`.
